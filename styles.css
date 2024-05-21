@@ -4,7 +4,8 @@ body {
   font-weight: 400;
   line-height: 1.4;
   color: white;
-  margin: 0;
+  margin: 325;
+  margin-top:50;
 }
 hr {
   height: 5px;
@@ -39,8 +40,10 @@ body::before {
   height: 100%;
   width: 100%;
   z-index: -1;
-  background: darkblue;
-  background-image: url(https://wallsbazar.com/wp-content/uploads/2021/08/Minimalist-Macbook-Pro-Wallpaper.jpg)
+  background: #070a13;
+  background-image: url(https://i.pinimg.com/originals/60/63/da/6063da107454d50c1d7786cc2c2bac75.jpg);
+  display:flex;
+  justify-content:space-between;
 }
 :root {
   --color-white: #f3f3f3;
@@ -60,7 +63,7 @@ button {
 }
 
 .container {
-  width: 100%;
+  width: 50%;
   margin: 3.125rem auto 0 auto;
 }
 .header {
